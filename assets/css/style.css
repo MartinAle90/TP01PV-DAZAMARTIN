@@ -19,7 +19,7 @@ nav a {
 
 main {
     padding: 20px;
-    text-align: center;
+    
 }
 
 main h2 {
@@ -34,11 +34,6 @@ main p {
     margin-bottom: 20px;
 }
 
-div {
-    margin: 20px auto;
-    width: 90%;
-    padding: 10px;
-}
 
 section {
     margin-bottom: 20px;
@@ -58,4 +53,25 @@ section p {
     font-size: 16px;
     line-height: 1.6;
     margin: 10px 0;
+}
+
+.container {
+    width: 100%;
+    /*border: 2px solid #ffffff;*/
+}
+
+.portada {
+    max-width: 50%; /*No sera mas grande que su contenedor, con % (relativa al contenedor)*/
+    height: auto; /*La altura se ajusta automaticamente*/
+    display: block; /*Elimina el espacio en blanco debajo de la imagen*/
+    margin: 0 auto; /*Centrar la imagen*/
+    padding-bottom: 1vw; /*Espacio entre la imagen y el texto*/
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #6c757d;
+    color: white;
+    margin-top: 20px;
 }
